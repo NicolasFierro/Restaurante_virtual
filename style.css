@@ -1,0 +1,67 @@
+
+
+/* Estilo para centrar el contenido en el cuerpo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: rgb(168, 98, 98);
+    background-image: url('https://i.pinimg.com/originals/a2/4c/c0/a24cc0921b03e09160fff9bbf1b39ec2.gif')
+}
+
+/* Estilo para el título principal */
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: rgb(234, 76, 76);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center; /* Alineación de texto al centro */
+}
+
+/* Estilo para etiquetas */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilo para el elemento `select` */
+select {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px; /* Alineación de texto al centro en el elemento `select` */
+}
+
+/* Estilo para los elementos `input` y botones */
+input {
+    display: block;
+    margin: 10px auto; /* Centrar elementos horizontalmente */
+}
+
+button {
+    display: block;
+    margin: 10px auto; /* Centrar elementos horizontalmente */
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el resultado del costo total */
+#totalPrice {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
